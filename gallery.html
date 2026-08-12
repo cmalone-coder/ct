@@ -375,10 +375,11 @@
     <a href="index.html" class="nav-link">View 3D reconstruction →</a>
     <button id="reportOpenBtn" class="nav-link" style="cursor:pointer;">Imaging report</button>
     <button id="treatmentOpenBtn" class="nav-link" style="cursor:pointer;">Treatment plan</button>
+    <button id="visitOpenBtn" class="nav-link" style="cursor:pointer;">Office visit 5/8/26</button>
   </div>
   <!-- Bump this on every push that changes what's visible on this page --
        lets the user tell a real update from a stale cache at a glance. -->
-  <div class="disclaimer">v6</div>
+  <div class="disclaimer">v7</div>
 </header>
 
 <div class="nav-backdrop" id="navBackdrop"></div>
@@ -503,6 +504,47 @@
     <p>Repeat CT imaging after healing to assess the result.</p>
     <p>Virtual surgical planning based on the updated imaging, used to custom-fabricate a patient-specific PEEK implant.</p>
     <p>Implant placed and secured with titanium screws once the bone graft has established a stable barrier over the sinus.</p>
+  </div>
+</div>
+
+<div class="report-backdrop" id="visitBackdrop">
+  <div class="report-modal">
+    <button class="report-close" id="visitCloseBtn" aria-label="Close">✕</button>
+    <h2>Office Visit — 5/8/2026</h2>
+    <div class="report-meta">
+      New patient consultation, Plastic Surgery<br>
+      Names of providers removed.
+    </div>
+
+    <h3>History of Present Illness</h3>
+    <p>Patient is a 36 year old male who was a previous patient of [surgeon]'s and [another surgeon]'s. He has a history of Parry-Romberg disease which afflicted the right side of his face primarily. He has had a diagnosis of right hemifacial microsomia as well. He underwent several surgeries in the past for correction. He was lost to follow up due to social considerations at home. He is interested in having a palatal fistula repaired and options for improvement of his facial asymmetry.</p>
+
+    <h3>Past Medical History</h3>
+    <p>Parry-Romberg disease vs Hemifacial Microsomia</p>
+
+    <h3>Past Surgical History</h3>
+    <ol>
+      <li>Microfat grafting to face/ATT/buccal mucosal graft upper lip 12/04 ([surgeon])</li>
+      <li>LeFort I maxillary distraction 11/07 ([another surgeon])</li>
+      <li>LeFort I, removal maxillary distraction device 1/08 ([another surgeon])</li>
+      <li>Microfat grafting right cheek, upper lip 7/04 ([surgeon])</li>
+      <li>Free groin flap to right cheek, HA osteoplasty 4/04 ([surgeon] and [surgical team member])</li>
+    </ol>
+
+    <h3>Physical Exam</h3>
+    <p>Height: 180.3 cm (5'11") &nbsp;·&nbsp; Weight: 79.4 kg (175 lb)</p>
+    <p>General: No acute distress</p>
+    <p>HEENT: EOMI, PERRL, OP — palatal fistula at right apex of palate (1mm); right maxillary and zygomatic hypoplasia; lip retraction right; right orbital dystopia; soft tissue atrophy right cheek, upper lip, nose</p>
+    <p>Neck: Supple &nbsp;·&nbsp; Chest: Clear &nbsp;·&nbsp; Heart: RRR &nbsp;·&nbsp; Abdomen: Soft and nontender &nbsp;·&nbsp; Extremities: Normal &nbsp;·&nbsp; Neuro: Nonfocal</p>
+
+    <h3>Impression</h3>
+    <p>Right hemifacial microsomia / Parry-Romberg disease</p>
+
+    <h3>Plan</h3>
+    <p>Will order a maxillofacial CT scan for initial evaluation. Discussed possible zygomatic and maxillary reconstruction with patient-specific PEEK implant, ATT right cheek, fat grafting, and repair of the palatal fistula. Patient will follow up after the exam for review and possible surgical planning.</p>
+
+    <h3>Additional Documentation</h3>
+    <p>Vitals: Ht 1.803 m (5'11") Wt 79.4 kg (175 lb) BMI 24.41 kg/m² BSA 1.99 m²</p>
   </div>
 </div>
 
@@ -1117,6 +1159,11 @@ document.getElementById('treatmentOpenBtn').onclick = () => document.getElementB
 document.getElementById('treatmentCloseBtn').onclick = () => document.getElementById('treatmentBackdrop').classList.remove('open');
 document.getElementById('treatmentBackdrop').addEventListener('click', e => {
   if(e.target.id === 'treatmentBackdrop') document.getElementById('treatmentBackdrop').classList.remove('open');
+});
+document.getElementById('visitOpenBtn').onclick = () => document.getElementById('visitBackdrop').classList.add('open');
+document.getElementById('visitCloseBtn').onclick = () => document.getElementById('visitBackdrop').classList.remove('open');
+document.getElementById('visitBackdrop').addEventListener('click', e => {
+  if(e.target.id === 'visitBackdrop') document.getElementById('visitBackdrop').classList.remove('open');
 });
 
 buildNav();
