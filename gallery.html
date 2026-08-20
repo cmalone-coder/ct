@@ -376,10 +376,11 @@
     <button id="reportOpenBtn" class="nav-link" style="cursor:pointer;">Imaging report</button>
     <button id="treatmentOpenBtn" class="nav-link" style="cursor:pointer;">Treatment plan</button>
     <button id="visitOpenBtn" class="nav-link" style="cursor:pointer;">Office visit 5/8/26</button>
+    <button id="historyOpenBtn" class="nav-link" style="cursor:pointer;">Surgical history</button>
   </div>
   <!-- Bump this on every push that changes what's visible on this page --
        lets the user tell a real update from a stale cache at a glance. -->
-  <div class="disclaimer">v8</div>
+  <div class="disclaimer">v9</div>
 </header>
 
 <div class="nav-backdrop" id="navBackdrop"></div>
@@ -545,6 +546,56 @@
 
     <h3>Additional Documentation</h3>
     <p>Vitals: Ht 1.803 m (5'11") Wt 79.4 kg (175 lb) BMI 24.41 kg/m² BSA 1.99 m²</p>
+  </div>
+</div>
+
+<div class="report-backdrop" id="historyBackdrop">
+  <div class="report-modal">
+    <button class="report-close" id="historyCloseBtn" aria-label="Close">✕</button>
+    <h2>Surgical History, 2003&ndash;2008</h2>
+    <div class="report-meta">
+      Extracted from the full Children's Medical Center Dallas chart export.<br>
+      Names of individuals removed. Focuses on operative reports, discharge summaries, referral letters, and key history findings.
+    </div>
+
+    <h3>September 2, 2003 &mdash; Initial Evaluation (age 13)</h3>
+    <p>The earliest documented clinical encounter for the facial asymmetry. Seen by [referring surgeon].</p>
+    <p><strong>History:</strong> Facial asymmetry first noticed roughly one year prior (accounts elsewhere in the record place the actual onset earlier, around age 10&ndash;11 &mdash; the exact timing varies slightly between notes, transcribed here as documented rather than reconciled). Prior surgical history at this point: a lipoma/benign tumor removed in the early 1990s.</p>
+    <p><strong>Exam:</strong> Right side of the face affected, with hyperpigmented skin and possible mild facial nerve weakness noted; the right malar eminence assessed as lower and sunken. Impression: progressive right hemifacial atrophy, likely Romberg's disease.</p>
+    <p><strong>Plan:</strong> Referred to [surgeon] (Dr. Ha) for further evaluation, with a note that a microvascular free flap (parascapular or groin) was likely to be the most beneficial reconstructive option &mdash; [referring surgeon] recommended proceeding sooner rather than waiting for growth to complete, given the importance of the next few years for psychosocial development, but deferred the final surgical decision to [surgeon].</p>
+
+    <h3>December 12, 2003 &mdash; Consultation with [surgeon] (age 14)</h3>
+    <p><strong>History:</strong> Seen in consultation, referred by [referring surgeon], for evaluation of progressive right hemifacial atrophy &mdash; by this point reportedly stable, with no further progression over the preceding several months.</p>
+    <p><strong>Exam:</strong> Significant asymmetry with an approximately 7&times;5cm area of soft-tissue depression in the right cheek and malar area, extending from the right tragus to the lateral oral commissure. Facial nerve (cranial nerve VII) function intact. Occlusal exam showed some slant of the occlusal plane, right side higher than left, suggesting possible maxillary hypoplasia.</p>
+    <p><strong>Impression:</strong> Right hemifacial atrophy (questionable Romberg disease).</p>
+    <p><strong>Plan:</strong> Given the stable presentation, proceed with combined soft-tissue and skeletal augmentation of the right cheek &mdash; hydroxyapatite augmentation of the right maxilla plus a free groin flap for soft-tissue augmentation. A facial CT scan was planned to assess the extent of skeletal atrophy, and [flap surgeon] (Dr. Thornton) was to be brought in to assist with the flap.</p>
+
+    <h3>April 6&ndash;9, 2004 &mdash; Free Groin Flap to Right Face (age 14)</h3>
+    <p>The foundational reconstructive procedure, carried out as planned from the December 2003 consultation. A multi-day inpatient admission with two coordinated operative teams: [flap surgeon] harvested a free flap from the right groin, and [surgeon] (Dr. Ha) performed the facial recipient-site work.</p>
+    <p><strong>Diagnosis:</strong> Right facial hemi-macrosomia (right-sided Romberg disease), with significant right malar deficiency and cheek soft-tissue atrophy causing facial asymmetry.</p>
+    <p><strong>Procedure &mdash; flap harvest ([flap surgeon]):</strong> The dominant flap artery was identified by Doppler roughly 3 cm below the inguinal crease. A flap matching a pre-marked facial skin template (~6 cm at greatest width) was elevated in the subcutaneous and deeper planes with careful vessel preservation, then transferred to the facial region on a cool saline pad for microvascular anastomosis. The donor site was closed with transposition flaps from the anterior abdomen and thigh, over a 9-mm Jackson-Pratt drain.</p>
+    <p><strong>Procedure &mdash; facial recipient site ([surgeon]):</strong> Via an upper gingivobuccal incision, the anterior maxilla was exposed (infraorbital nerve identified and preserved), and 5cc of hydroxyapatite mixed with the patient's own blood was packed onto the maxillary skeletal tissue for augmentation. The flap was then anastomosed to the facial vessels (9-0/10-0 suture) with excellent inflow confirmed. Estimated blood loss 200cc; no complications.</p>
+    <p><strong>Hospital course:</strong> Admitted to the ICU postoperatively for flap monitoring &mdash; excellent signal, flap viable throughout. Transferred to the floor on postop day 1. Slow to advance diet (soft diet + nutritional supplementation recommended), ambulating by postop day 3. Discharged home the night of April 8, 2004 on Keflex, Lortab, and Bacitracin wound care, with follow-up with [surgeon] on April 12, 2004.</p>
+
+    <h3>July 14, 2004 &mdash; Microfat Grafting, Right Face (age 14)</h3>
+    <p><strong>Diagnosis:</strong> Right hemifacial atrophy &mdash; follow-up refinement after the April free flap.</p>
+    <p><strong>Procedure:</strong> Microfat grafting of the right cheek, upper lip, and lower lip, with fat harvested from the buttocks. Surgeon [surgeon], assistant [assistant surgeon]. Estimated blood loss 5cc; no complications. Purpose noted as providing corrective symmetry following the prior free-flap cheek augmentation.</p>
+
+    <h3>December 6, 2004 &mdash; Vermilion Advancement &amp; Fat Grafting (age 15)</h3>
+    <p><strong>Diagnosis:</strong> Facial asymmetry (right hemifacial microsomia).</p>
+    <p><strong>Procedure:</strong> Micro-fat grafting to the right face and lips, adjacent tissue transfer of the right upper lip (2&times;3cm), and buccal mucosal graft to the upper lip (2&times;2cm), with fat again harvested from the buttocks. Surgeon [surgeon], assistants [assistant surgeon] and [assistant surgeon]. No complications; donor site closed with absorbable suture.</p>
+
+    <h3>November 19&ndash;20, 2007 &mdash; LeFort I Osteotomy for Distraction (age 18)</h3>
+    <p><strong>Diagnosis:</strong> Romberg syndrome, maxillary hypoplasia.</p>
+    <p><strong>History:</strong> Seen in consultation with [another surgeon] (Dr. Sinn); after examination and imaging review, consented for a right posterior maxillary LeFort I osteotomy with placement of a KLS-Martin distraction device for gradual distraction osteogenesis.</p>
+    <p><strong>Procedure:</strong> A standard LeFort-type incision was made in the right maxillary vestibule. During dissection, a previous hydroxyapatite graft (from the 2004 procedure) was found still partially present and loosely bound to the maxilla; it was removed. The right upper canine (tooth #6) was found still impacted, fenestrated through the maxillary bone &mdash; it was left in place for possible future orthodontic eruption, with the osteotomy placed just posterior to it. The osteotomy was completed with a reciprocating saw and osteotomes, the segment mobilized, and a 12-mm KLS-Martin distraction device fixated with cortical screws.</p>
+    <p><strong>Hospital course:</strong> Uneventful overnight admission (23-hour observation), discharged the next day tolerating a soft mechanical diet with pain well controlled. A minor "gum incident" was noted and reported to on-call staff overnight with no new orders required. Discharge medications: Afrin, Amoxicillin, Sudafed, Peridex rinse.</p>
+
+    <h3>January 28&ndash;29, 2008 &mdash; Right Hemi-LeFort I Osteotomy, Hardware Removal &amp; Extraction (age 18)</h3>
+    <p><strong>Diagnosis:</strong> Romberg's syndrome, maxillary asymmetry.</p>
+    <p><strong>History:</strong> The patient presented with persistent (though improved) asymmetry following the 2007 distraction, with the dentoalveolar segment still medially displaced and above the occlusal plane. Surgeon [another surgeon] (Dr. Sinn), assistant [assistant surgeon].</p>
+    <p><strong>Procedure:</strong> Via a right vestibular LeFort-type incision, the distraction device was removed &mdash; over 1cm of good bone had formed at the distraction site, but the dentoalveolar segment remained malpositioned. Osteotomes were used to create a new osteotomy at the impacted upper canine (tooth #6), which was extracted. Intermaxillary fixation with 26-gauge wire brought the segment into proper occlusion, secured with an S-shaped titanium plate. This left an ~8mm step-off at the maxillary segment, which was grafted using a shaped hydroxyapatite block.</p>
+    <p><strong>Hospital course:</strong> Admitted overnight for observation, discharged home the following day tolerating oral intake well, pain controlled, ambulating without issue. Discharge medications: Lortab, Peridex. Follow-up with Dr. Sinn in 1&ndash;3 weeks.</p>
   </div>
 </div>
 
@@ -1164,6 +1215,11 @@ document.getElementById('visitOpenBtn').onclick = () => document.getElementById(
 document.getElementById('visitCloseBtn').onclick = () => document.getElementById('visitBackdrop').classList.remove('open');
 document.getElementById('visitBackdrop').addEventListener('click', e => {
   if(e.target.id === 'visitBackdrop') document.getElementById('visitBackdrop').classList.remove('open');
+});
+document.getElementById('historyOpenBtn').onclick = () => document.getElementById('historyBackdrop').classList.add('open');
+document.getElementById('historyCloseBtn').onclick = () => document.getElementById('historyBackdrop').classList.remove('open');
+document.getElementById('historyBackdrop').addEventListener('click', e => {
+  if(e.target.id === 'historyBackdrop') document.getElementById('historyBackdrop').classList.remove('open');
 });
 
 buildNav();
