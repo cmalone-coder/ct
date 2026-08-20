@@ -4,7 +4,7 @@
 
 ## Progress Notes — New Patient Consultation
 
-**History of Present Illness:** Patient is a 36 year old male who was a previous patient of [surgeon]'s and [another surgeon]'s. He has a history of Parry-Romberg disease which afflicted the right side of his face primarily. He has had a diagnosis of right hemifacial microsomia as well. He underwent several surgeries in the past for correction. He was lost to follow up due to social considerations at home. He is interested in having a palatal fistula repaired and options for improvement of his facial asymmetry.
+**History of Present Illness:** Patient is a 36 year old male who was a previous patient of [surgeon]'s and [referring surgeon]'s. He has a history of Parry-Romberg disease which afflicted the right side of his face primarily. He has had a diagnosis of right hemifacial microsomia as well. He underwent several surgeries in the past for correction. He was lost to follow up due to social considerations at home. He is interested in having a palatal fistula repaired and options for improvement of his facial asymmetry.
 
 **Past Medical History:** Parry-Romberg disease vs Hemifacial Microsomia
 
@@ -13,7 +13,7 @@
 2. LeFort I maxillary distraction 11/07 ([another surgeon])
 3. LeFort I, removal maxillary distraction device 1/08 ([another surgeon])
 4. Microfat grafting right cheek, upper lip 7/04 ([surgeon])
-5. Free groin flap to right cheek, HA osteoplasty 4/04 ([surgeon] and [surgical team member])
+5. Free groin flap to right cheek, HA osteoplasty 4/04 ([surgeon] and [flap surgeon])
 
 **Height:** 180.3 cm (5'11")
 **Weight:** 79.4 kg (175 lb)

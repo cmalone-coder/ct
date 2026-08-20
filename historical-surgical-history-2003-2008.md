@@ -1,14 +1,38 @@
-# Surgical History, 2004–2008 (De-identified)
+# Surgical History, 2003–2008 (De-identified)
 
-Extracted from the full Children's Medical Center Dallas chart export, covering the reconstructive procedures performed during childhood/adolescence. This focuses on the operative reports, discharge summaries, and key history findings — it does not include routine intraoperative logs, PACU vitals, or lab results, which carry no additional clinical narrative beyond confirming the procedures below went as planned without complications.
+Extracted from the full Children's Medical Center Dallas chart export, covering the reconstructive procedures performed during childhood/adolescence. This focuses on the operative reports, discharge summaries, referral letters, and key history findings — it does not include routine intraoperative logs, PACU vitals, or lab results, which carry no additional clinical narrative beyond confirming the procedures below went as planned without complications.
 
-Names of individuals are replaced with consistent generic labels throughout: **[surgeon]** is Dr. Ha, **[another surgeon]** is Dr. Sinn — matching the labels already used elsewhere on this site. Other named physicians are labeled by role ([flap surgeon], [assistant surgeon], [primary care physician]) since they appear only once or twice in this record. Nursing, anesthesia, and OR support staff are omitted as not clinically material.
+Names of individuals are replaced with consistent generic labels throughout: **[surgeon]** is Dr. Ha, **[another surgeon]** is Dr. Sinn, **[referring surgeon]** is the plastic surgeon who first evaluated the asymmetry and referred the patient to [surgeon] — matching the labels already used elsewhere on this site. Other named physicians are labeled by role ([flap surgeon], [assistant surgeon], [primary care physician]) since they appear only once or twice in this record. Nursing, anesthesia, and OR support staff are omitted as not clinically material.
+
+---
+
+## September 2, 2003 — Initial Evaluation (age 13)
+
+The earliest documented clinical encounter for the facial asymmetry. Seen by **[referring surgeon]**.
+
+**History:** Facial asymmetry first noticed roughly one year prior (accounts elsewhere in the record place the actual onset earlier, around age 10–11 — the exact timing varies slightly between notes, transcribed here as documented rather than reconciled). Prior surgical history at this point: a lipoma/benign tumor removed in the early 1990s.
+
+**Exam:** Right side of the face affected, with hyperpigmented skin and possible mild facial nerve weakness noted; the right malar eminence assessed as lower and sunken. Impression: progressive right hemifacial atrophy, likely Romberg's disease.
+
+**Plan:** Referred to **[surgeon]** (Dr. Ha) for further evaluation, with a note that a microvascular free flap (parascapular or groin) was likely to be the most beneficial reconstructive option — [referring surgeon] recommended proceeding sooner rather than waiting for growth to complete, given the importance of the next few years for psychosocial development, but deferred the final surgical decision to [surgeon].
+
+---
+
+## December 12, 2003 — Consultation with [surgeon] (age 14)
+
+**History:** Seen in consultation, referred by [referring surgeon], for evaluation of progressive right hemifacial atrophy — by this point reportedly stable, with no further progression over the preceding several months.
+
+**Exam:** Significant asymmetry with an approximately 7×5cm area of soft-tissue depression in the right cheek and malar area, extending from the right tragus to the lateral oral commissure. Facial nerve (cranial nerve VII) function intact. Occlusal exam showed some slant of the occlusal plane, right side higher than left, suggesting possible maxillary hypoplasia.
+
+**Impression:** Right hemifacial atrophy (questionable Romberg disease).
+
+**Plan:** Given the stable presentation, proceed with combined soft-tissue and skeletal augmentation of the right cheek — hydroxyapatite augmentation of the right maxilla plus a free groin flap for soft-tissue augmentation. A facial CT scan was planned to assess the extent of skeletal atrophy, and [flap surgeon] (Dr. Thornton) was to be brought in to assist with the flap.
 
 ---
 
 ## April 6–9, 2004 — Free Groin Flap to Right Face (age 14)
 
-The foundational reconstructive procedure. A multi-day inpatient admission with two coordinated operative teams: **[flap surgeon]** harvested a free flap from the right groin, and **[surgeon]** (Dr. Ha) performed the facial recipient-site work.
+The foundational reconstructive procedure, carried out as planned from the December 2003 consultation. A multi-day inpatient admission with two coordinated operative teams: **[flap surgeon]** harvested a free flap from the right groin, and **[surgeon]** (Dr. Ha) performed the facial recipient-site work.
 
 **Diagnosis:** Right facial hemi-macrosomia (right-sided Romberg disease), with significant right malar deficiency and cheek soft-tissue atrophy causing facial asymmetry.
 
@@ -60,4 +84,4 @@ The foundational reconstructive procedure. A multi-day inpatient admission with 
 
 ---
 
-*This period of care (2004–2008) precedes the August 2026 consultation and treatment plan documented elsewhere on this site, which addresses the current state of the resulting hardware and bone reconstruction.*
+*This period of care (2003–2008) precedes the August 2026 consultation and treatment plan documented elsewhere on this site, which addresses the current state of the resulting hardware and bone reconstruction.*
